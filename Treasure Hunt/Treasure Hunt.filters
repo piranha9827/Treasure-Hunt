@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Mondo">
+      <UniqueIdentifier>{ecdc559a-8f34-46e5-82d0-242e3fafba9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Execution Libraries">
+      <UniqueIdentifier>{3a086247-9d85-4d8a-8c32-d374c76031b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="text.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="text.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="debug_quad.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="debug_quad_depth.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading_alpha.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadow_mapping_depth.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading_instanced.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadow_mapping_depth_instanced.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="smokeShader.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shadow_mapping_depth_smoke.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skybox.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loading_screen.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="loading_screen.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading_trasp.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="model_loading_trasp.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files\Mondo</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObj.h">
+      <Filter>Header Files\Mondo</Filter>
+    </ClInclude>
+    <ClInclude Include="kdtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangoloPt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObjIstanced.h">
+      <Filter>Header Files\Mondo</Filter>
+    </ClInclude>
+    <ClInclude Include="Punto3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coperchi.h">
+      <Filter>Header Files\Mondo</Filter>
+    </ClInclude>
+    <ClInclude Include="renderText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="lib\x64\release\assimp-vc142-mt.dll">
+      <Filter>Execution Libraries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\x64\release\openal32.dll">
+      <Filter>Execution Libraries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\x64\release\sfml-audio-2.dll">
+      <Filter>Execution Libraries</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="lib\x64\release\sfml-system-2.dll">
+      <Filter>Execution Libraries</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
